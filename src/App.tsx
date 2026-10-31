@@ -149,12 +149,12 @@ export default function App() {
             With the blessings of Allah and the love and prayers of our
             families, you are warmly invited to the wedding of
           </p>
-          <h2 className="script text-6xl mt-6 leading-tight">Dr Febitha</h2>
+          <h2 className="script text-6xl mt-6 leading-tight">Febitha</h2>
             
               <p>D/O Hyderkutty &amp; Ansar Beegum</p>
            
           <p className="script text-5xl text-[#b08a45] my-4">&amp;</p>
-          <h2 className="script text-6xl leading-tight">Dr Hisham</h2>
+          <h2 className="script text-6xl leading-tight">Hisham</h2>
        
             <p>S/O Musthafa Eriyaden &amp; Ummu Habeeba</p>
           
@@ -169,8 +169,7 @@ export default function App() {
             A Sacred Promise
           </h3>
           <p className="arabic text-2xl leading-[2.2] mt-5 font-bold">
-            وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُمْ مِنْ أَنْفُسِكُمْ أَزْوَاجًا
-            لِتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَوَدَّةً وَرَحْمَةً
+          وَمِنْ ءَايَـٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةًۭ وَرَحْمَةً
           </p>
           <p className="italic mt-4 leading-relaxed">
             And of His signs is that He created for you from yourselves mates

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Great+Vibes&family=Amiri:wght@400;700&display=swap");
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background: #eceee3;
+  color: #3b4a2f;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  text-align: center;
+}
+
+.script {
+  font-family: "Great Vibes", "Snell Roundhand", cursive;
+}
+
+.arabic {
+  font-family: "Amiri", "Traditional Arabic", serif;
+  direction: rtl;
+}
+
+.paper {
+  background:
+    radial-gradient(ellipse at 10% 5%, #d9e0cb 0, transparent 35%),
+    radial-gradient(ellipse at 95% 40%, #d5dcc8 0, transparent 30%),
+    radial-gradient(ellipse at 5% 85%, #dde3d0 0, transparent 35%),
+    #f3f2e9;
+}
+
+.gold {
+  background:
+    repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.18) 0 18px, transparent 18px 36px),
+    linear-gradient(135deg, #b08a45, #e6cf8e 45%, #a37b3a);
+  color: #5b4420;
+  box-shadow: 0 8px 20px rgba(120, 90, 30, 0.35);
+  border: 1px solid #8b6a2e;
+  transition: transform 0.2s;
+}
+.gold:active {
+  transform: scale(0.97);
+}
+
+.rule {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #b08a45, transparent);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid #d8c7a0;
+  border-radius: 20px;
+  box-shadow: 0 6px 24px rgba(100, 90, 50, 0.12);
+}
+
+.fade {
+  animation: fade 0.9s ease both;
+}
+@keyframes fade {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+.petal {
+  position: fixed;
+  top: -20px;
+  width: 10px;
+  height: 14px;
+  border-radius: 50% 0 50% 0;
+  background: #e9d3b5;
+  opacity: 0.7;
+  animation: fall linear infinite;
+  pointer-events: none;
+}
+@keyframes fall {
+  to { transform: translateY(110vh) rotate(360deg); }
+}

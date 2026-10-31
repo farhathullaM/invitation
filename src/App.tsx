@@ -26,7 +26,9 @@ const Divider = () => (
   </div>
 );
 
-const Label = ({ children }) => (
+const Label = ({ children }:{
+  children: string;
+}) => (
   <p className="tracking-[.3em] text-xs uppercase text-[#a37b3a] text-center">
     {children}
   </p>
@@ -64,7 +66,13 @@ function Countdown() {
   );
 }
 
-function EventCard({ title, time, place, area, map }) {
+function EventCard({ title, time, place, area, map }:{
+  title: string;
+  time: string;
+  place: string;
+  area: string;
+  map: string;
+}) {
   const [copied, setCopied] = useState(false);
 
   const copy = async () => {

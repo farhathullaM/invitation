@@ -149,14 +149,14 @@ export default function App() {
             With the blessings of Allah and the love and prayers of our
             families, you are warmly invited to the wedding of
           </p>
-          <h2 className="script text-6xl mt-6 leading-tight">Febitha</h2>
+          <h2 className="script text-6xl mt-6 leading-tight mb-1">Jasil </h2>
             
-              <p>D/O Hyderkutty &amp; Ansar Beegum</p>
+              <p>D/O Jafar VP &amp; Nishida Mol</p>
            
           <p className="script text-5xl text-[#b08a45] my-4">&amp;</p>
-          <h2 className="script text-6xl leading-tight">Hisham</h2>
+          <h2 className="script text-6xl leading-tight">Hiba Sherin </h2>
        
-            <p>S/O Musthafa Eriyaden &amp; Ummu Habeeba</p>
+            <p>S/O Mohammed Musthafa  &amp; Shajitha</p>
           
         </section>
 
@@ -195,9 +195,9 @@ export default function App() {
           >
             {revealed ? (
               <span className="fade flex flex-col items-center">
-                <span className="text-4xl font-semibold">12</span>
+                <span className="text-4xl font-semibold">27</span>
                 <span className="tracking-[.3em] uppercase text-sm">
-                  November 2026
+                  December 2026
                 </span>
                 <span className="italic mt-1">Thursday</span>
               </span>
@@ -234,7 +234,7 @@ export default function App() {
           Your presence and duas will make our day complete.
         </p>
         <p className="mt-6 tracking-[.3em] uppercase text-xs text-[#a37b3a]">
-          Febitha &amp; Hisham · 2026
+          Jasil &amp; Hiba Sherin · 2026
         </p>
       </main>
     </div>

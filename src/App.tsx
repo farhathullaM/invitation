@@ -151,12 +151,12 @@ export default function App() {
           </p>
           <h2 className="script text-6xl mt-6 leading-tight">Faris</h2>
             
-              <p>D/O Hyderkutty &amp; Ansar Beegum</p>
+              <p>S/O Hyderkutty &amp; Ansar Beegum</p>
            
           <p className="script text-5xl text-[#b08a45] my-4">&amp;</p>
           <h2 className="script text-6xl leading-tight">Shifa</h2>
        
-            <p>S/O Gafoor M  &amp; Haseena </p>
+            <p>D/O Gafoor M  &amp; Haseena </p>
           
         </section>
 

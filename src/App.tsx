@@ -151,7 +151,7 @@ export default function App() {
           </p>
           <h2 className="script text-6xl mt-6 leading-tight">Faris</h2>
             
-              <p>S/O Hyderkutty &amp; Ansar Beegum</p>
+              <p>S/O Hyderkutty &amp; Ansar Beegum</p> 
            
           <p className="script text-5xl text-[#b08a45] my-4">&amp;</p>
           <h2 className="script text-6xl leading-tight">Shifa</h2>
@@ -234,7 +234,7 @@ export default function App() {
           Your presence and duas will make our day complete.
         </p>
         <p className="mt-6 tracking-[.3em] uppercase text-xs text-[#a37b3a]">
-          Faris  &amp; Shifa · 2026
+          Faris  &amp; Shifa
         </p>
       </main>
     </div>

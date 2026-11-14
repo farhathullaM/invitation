@@ -2,21 +2,21 @@ import { useState, useEffect } from "react";
 
 const NIKKAH = {
   title: "Nikkah",
-  time: "11:00 AM",
-  place: "Sunni Juma Masjid",
-  area: "Chamapparambu",
-  map: "https://maps.app.goo.gl/ycfx67ncyPtSgi6BA?g_st=ic",
+  time: "05:00 PM",
+  place: "Hiza Convention Center",
+  area: "Udirampoyil",
+  map: "https://maps.app.goo.gl/ktKtg1LwXNGYUemk9",
 };
 
-const RECEPTION = {
-  title: "Reception",
-  time: "11:30 AM onwards",
-  place: "VMM Arcade",
-  area: "Karappuram",
-  map: "https://maps.app.goo.gl/zUXF9jAb2gzvixps6?g_st=ic",
-};
+// const RECEPTION = {
+//   title: "Reception",
+//   time: "11:30 AM onwards",
+//   place: "VMM Arcade",
+//   area: "Karappuram",
+//   map: "https://maps.app.goo.gl/zUXF9jAb2gzvixps6?g_st=ic",
+// };
 
-const TARGET = new Date("2026-11-12T11:00:00+05:30").getTime();
+const TARGET = new Date("2026-11-16T17:00:00+05:30").getTime();
 
 const Divider = () => (
   <div className="flex items-center justify-center gap-3 my-6 w-48 mx-auto">
@@ -89,7 +89,7 @@ function EventCard({ title, time, place, area, map }:{
   return (
     <div className="card p-6 w-full flex flex-col items-center text-center">
       <Label>{title}</Label>
-      <p className="text-lg italic mt-2">12 November 2026</p>
+      <p className="text-lg italic mt-2">16 November 2026</p>
       <p className="text-2xl font-semibold mt-1">{time}</p>
       <div className="rule w-full my-4" />
       <p className="tracking-[.2em] uppercase text-lg font-semibold">{place}</p>
@@ -141,22 +141,22 @@ export default function App() {
           </p>
           <Divider />
           <h1 className="text-4xl tracking-[.2em] uppercase font-semibold">
-            Wedding
+            NIKKAH
           </h1>
           <p className="tracking-[.4em] uppercase text-sm mt-1">Invitation</p>
           <Divider />
           <p className="italic text-[#6b7a5c] leading-relaxed">
             With the blessings of Allah and the love and prayers of our
-            families, you are warmly invited to the wedding of
+            families, you are warmly invited to the nikkah of
           </p>
-          <h2 className="script text-6xl mt-6 leading-tight">Febitha</h2>
+          <h2 className="script text-6xl mt-6 leading-tight">Faris</h2>
             
               <p>D/O Hyderkutty &amp; Ansar Beegum</p>
            
           <p className="script text-5xl text-[#b08a45] my-4">&amp;</p>
-          <h2 className="script text-6xl leading-tight">Hisham</h2>
+          <h2 className="script text-6xl leading-tight">Shifa</h2>
        
-            <p>S/O Musthafa Eriyaden &amp; Ummu Habeeba</p>
+            <p>S/O Gafoor M  &amp; Haseena </p>
           
         </section>
 
@@ -195,11 +195,11 @@ export default function App() {
           >
             {revealed ? (
               <span className="fade flex flex-col items-center">
-                <span className="text-4xl font-semibold">12</span>
+                <span className="text-4xl font-semibold">16</span>
                 <span className="tracking-[.3em] uppercase text-sm">
                   November 2026
                 </span>
-                <span className="italic mt-1">Thursday</span>
+                <span className="italic mt-1">Monday</span>
               </span>
             ) : (
               <span className="flex flex-col items-center">
@@ -223,7 +223,7 @@ export default function App() {
         <section className="mt-8 w-full flex flex-col items-center gap-6">
           <h3 className="script text-5xl text-[#a37b3a]">Where Hearts Meet</h3>
           <EventCard {...NIKKAH} />
-          <EventCard {...RECEPTION} />
+          {/* <EventCard {...RECEPTION} /> */}
         </section>
 
         <Divider />
@@ -234,7 +234,7 @@ export default function App() {
           Your presence and duas will make our day complete.
         </p>
         <p className="mt-6 tracking-[.3em] uppercase text-xs text-[#a37b3a]">
-          Febitha &amp; Hisham · 2026
+          Faris  &amp; Shifa · 2026
         </p>
       </main>
     </div>
